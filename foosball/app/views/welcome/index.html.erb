@@ -1,9 +1,18 @@
+  <h1>Let's count it!</h1>
   <div>
-  <h1>This is foosball player!</h1>
-    <ul>
-      <li><a href="http://railsgirls.com">Name</a></li>
-      <li><a href="https://en.wikibooks.org/wiki/Ruby_Programming">Avatar</a></li>
-      <li><a href="http://guides.rubyonrails.org">Surname</a></li>
-    </ul>
+    <h2>Add player</h2>
+    <a href="">button</a>
+    <h2>Add Match</h2>
+    <a href="">button</a>
+    <h2>Meet players</h2>
+    <h2>Take me to the ranking page</h2>
+    <a href="">button</a>
+  </div>
+  <div>
+  <h1>Some links here</h1>
+
+<% for url, name in @websites %>
+  <li><a href="<%= url %>"><%= name %></a></li>
+<% end %>
   </div>
   <img src="http://railsgirls.com/images/rg-warsaw.png" />
