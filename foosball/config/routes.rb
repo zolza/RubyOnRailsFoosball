@@ -1,4 +1,28 @@
 Rails.application.routes.draw do
+  get 'ranking_page/see'
+
+  get 'ranking_page/help'
+
+  get 'ranking_page/home'
+
+  get 'meet_players/see'
+
+  get 'meet_players/help'
+
+  get 'meet_players/home'
+
+  get 'add_match/add'
+
+  get 'add_match/help'
+
+  get 'add_match/home'
+
+  get 'add_player/add'
+
+  get 'add_player/help'
+
+  get 'add_player/home'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
