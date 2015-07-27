@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'welcome/addPlayer'
+
+  get 'welcome/addMatch'
+
+  get 'welcome/meetPlayers'
+
+  get 'welcome/rankingPage'
+
+  get 'welcome/home'
+
+  get 'welcome/help'
+
+  get 'welcome/about'
+
   get 'ranking_page/see'
 
   get 'ranking_page/help'

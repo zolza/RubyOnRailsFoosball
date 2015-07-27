@@ -1,10 +1,22 @@
 class WelcomeController < ApplicationController
-  def index
-  @websites = [
-    ["http://fifa.com", "Random page"],
-    ["http://railsgirls.com", "Rails Girls"],
-    ["https://en.wikibooks.org/wiki/Ruby_Programming", "Wikibooks"],
-    ["http://guides.rubyonrails.org", "Ruby on Rails Guides"],
-  ]
+  def addPlayer
+  end
+
+  def addMatch
+  end
+
+  def meetPlayers
+  end
+
+  def rankingPage
+  end
+
+  def home
+  end
+
+  def help
+  end
+
+  def about
   end
 end
