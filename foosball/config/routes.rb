@@ -13,6 +13,10 @@ Rails.application.routes.draw do
 
   get 'about' => 'welcome#about'
 
+# get 'welcome/about'
+
+#  get 'welcome/about_path'
+
 #  get 'ranking_page/see'
 
 #  get 'ranking_page/help'

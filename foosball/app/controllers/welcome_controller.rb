@@ -3,15 +3,12 @@ class WelcomeController < ApplicationController
   end
 
   def addMatch
-    render "hola"
   end
 
   def meetPlayers
-    render "hola"
   end
 
   def rankingPage
-    render "hola"
   end
 
   def home
