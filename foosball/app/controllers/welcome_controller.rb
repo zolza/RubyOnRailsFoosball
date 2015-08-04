@@ -1,6 +1,5 @@
 class WelcomeController < ApplicationController
   def addPlayer
-    render "hola"
   end
 
   def addMatch

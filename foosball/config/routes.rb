@@ -1,49 +1,49 @@
 Rails.application.routes.draw do
-  get 'welcome/addPlayer'
+  get 'addPlayer' => 'welcome#addPlayer'
 
-  get 'welcome/addMatch'
+  get 'addMatch' => 'welcome#addMatch'
 
-  get 'welcome/meetPlayers'
+  get 'meetPlayers' => 'welcome#meetPlayers'
 
-  get 'welcome/rankingPage'
+  get 'rankingPage' => 'welcome#rankingPage'
 
-  get 'welcome/home'
+  get 'home' => 'welcome#home'
 
-  get 'welcome/help'
+  get 'help' => 'welcome#help'
 
-  get 'welcome/about'
+  get 'about' => 'welcome#about'
 
-  get 'ranking_page/see'
+#  get 'ranking_page/see'
 
-  get 'ranking_page/help'
+#  get 'ranking_page/help'
 
-  get 'ranking_page/home'
+#  get 'ranking_page/home'
 
-  get 'meet_players/see'
+#  get 'meet_players/see'
 
-  get 'meet_players/help'
+#  get 'meet_players/help'
 
-  get 'meet_players/home'
+#  get 'meet_players/home'
 
-  get 'add_match/add'
+#  get 'add_match/add'
 
-  get 'add_match/help'
+#  get 'add_match/help'
 
-  get 'add_match/home'
+#  get 'add_match/home'
 
-  get 'add_player/add'
+#  get 'add_player/add'
 
-  get 'add_player/help'
+#  get 'add_player/help'
 
-  get 'add_player/home'
+#  get 'add_player/home'
 
-  get 'welcome/index'
+#  get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'welcome#index'
+  root 'welcome#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
